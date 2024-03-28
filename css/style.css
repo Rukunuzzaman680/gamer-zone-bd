@@ -139,7 +139,7 @@ header {
 
 /* ------ funny game ------- */
 .funny-games {
-  width: 100%;
+  margin: 0 75px;
 }
 .funny-games h1 {
   margin: 0px;
@@ -160,14 +160,11 @@ header {
 }
 /* ----------- */
 .online-game {
-  margin: 0px 370px;
   display: flex;
-  gap: 13px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .online-game p {
   font-size: 20px;
-  line-height: 30px;
   color: #534c64;
   font-weight: 500;
   font-family: 'Work Sans';
@@ -179,7 +176,7 @@ header {
 
 .play-button {
   position: absolute;
-  bottom: 50%;
+  bottom: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 60px;
