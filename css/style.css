@@ -4,7 +4,7 @@ header {
   width: 100%;
   height: 130px;
   filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.05));
-  background-color: #ffffff;
+  background-color: #fff;
   display: flex;
   justify-content: space-around;
 }
@@ -224,4 +224,14 @@ header {
   position: relative;
   bottom: 200px;
   right: 150px;
+}
+
+/* ----- Responsive ----- */
+@media (max-width: 576px) {
+  header,
+  .goat,
+  .online-game,
+  .download-games {
+    flex-direction: column;
+  }
 }
